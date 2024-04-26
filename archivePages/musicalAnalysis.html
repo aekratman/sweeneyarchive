@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>STA: Score</title>
+      <link rel="stylesheet" href="/style.css">
+  </head>
+
+<body>
+    <body style="background-color:darkgray;"></body>
+        <link rel="stylesheet" href="/style.css">
+        <script src="/button.js"></script>
+
+<font color="#8B0000">      
+ 
+    <div id="wrapper">
+        <nav class="abyss topnav">          
+            <button type="buttonleft"; align-items: left; onclick="location.href = '/index.html';">Home</button>
+            <button type="buttonleft" onclick="goBackOrIndex()">Go Back</button>
+      
+            <div class="search-container">
+                <form action="/404.html">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+
+
+            <script>
+                function goBackOrIndex() {
+                    if (history.length > 1) {
+                        history.back();
+                    } else {
+                        window.location.href = "index.html";
+                    }
+                }
+                </script>
+                
+        </nav>
+        </div>
+    </div>
+</div>
+    
+
+<div class="flex">
+    <div class="flexBox">
+    <div class="sidebar">
+        <div class="abyss"><h1>USER MENU</h1>
+        <p> 
+        <button type="button" onclick="location.href = '/archivePages/showsByYear.html';">Shows by Year</button><p></p>
+        <button type="button" onclick="location.href = '/archivePages/characters.html';">Characters</button><p></p>
+        <button type="button" onclick="location.href = '/archivePages/bts.html';">Behind the Scenes</button><p></p>
+        <button type="button" onclick="location.href = '/archivePages/scriptAnalysis.html';">Script Analysis</button><p></p>
+        <button type="button" onclick="location.href = '/archivePages/musicalAnalysis.html';">Musical Analysis</button><p></p>
+        <button type="button" onclick="location.href = '/archivePages/lyricalAnalysis.html';">Lyrical Analaysis</button><p></p>
+</div>
+    </div>
+</div>
+
+
+
+<div class="flexBox">
+    <div class= "centerBar">
+        <div class="abyss"><h1>Script Analysis</h1></div>
+        <div class="abyss">
+        <p>green finch & linnet bird<p></p>
+        <p><img src="/images/sheet_music.png" class="resize50"></p>
+            <audio controls>
+                <source src="gf&lb.mp3" type="audio/mpeg">
+              </audio> 
+              <p>Find out more:
+              <p></p><button type="button" class="btn" id="analysis_gf&lb" onclick="showrecs('analysis_gf&lb')">Analysis</button>
+              <p></p><button type="button" class="btn" id="appearances_gf&lb" onclick="showrecs('appearances_gf&lb')">Song Appearances</button>
+              <p></p>
+            <p></p>
+            </div>
+    </div>
+</div>
+        
+        
+
+  </div>
+  <br><br><br><p>
+  
+  
+
+   </p></font></div></div></div></font>
+
+      
+    </body>
+</html>

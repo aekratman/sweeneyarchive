@@ -13,6 +13,8 @@
     <body style="background-color:darkgray;"></body>
         <link rel="stylesheet" href="/style.css">
         <script src="/button.js"></script>
+        <script src="/dropdown.html"></script>
+
 
 <font color="#8B0000">      
  
@@ -72,9 +74,26 @@
                 <source src="gf&lb.mp3" type="audio/mpeg">
               </audio> 
               <p>Find out more:
-              <p></p><button type="button" class="btn" id="analysis_gf&lb" onclick="showrecs('analysis_gf&lb')">Analysis</button>
-              <p></p><button type="button" class="btn" id="appearances_gf&lb" onclick="showrecs('appearances_gf&lb')">Song Appearances</button>
-              <p></p>
+
+
+
+              <div class="dropdown">  
+                <button onclick="show_hide()" class="button">Analysis</button>  
+                    <!-- dropdown list items will show when we click the drop button -->   
+                    <div id="list-items"> 
+                      <p>this is me trying. this is me trying. this is me trying. this is me trying. this is me trying. 
+                          this is me trying. this is me trying. this is me trying. this is me trying. this is me trying. this is me trying. 
+                          this is me trying. this is me trying. this is me trying. this is me trying. 
+                      </p>
+                    </div>  
+                    </div>
+
+              <p></p><button type="button" class="btn" id="appearances_gf&lb" onclick="showrecs('appgflb')">Song Appearances</button>
+              <p></p>           
+                <div class="rec" id="appgflb" style="display: none;">
+                    <p>loren ipsum</p>
+                    </div> 
+
             <p></p>
             </div>
     </div>
@@ -83,7 +102,7 @@
         
 
   </div>
-  <br><br><br><p>
+  <br><br><br><p>   
   
   
 

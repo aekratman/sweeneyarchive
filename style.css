@@ -455,5 +455,26 @@ nav {
   }
 }
 
+ /* set the position of dropdown */  
+ .dropdown {  
+  position: relative;  
+}  
+/* provide css to background of list items */   
+#list-items {  
+ display: center;  
+ position: center;  
+ background-color: white;  
+ width: 300px;  
+ padding: 10px;
+}  
 
+/* provide css to list items */   
+#list-items a {  
+  display: block;  
+  font-size: 18px;  
+  background-color: rgb(228, 228, 228);  
+  color: black;  
+  text-decoration: none;  
+  padding: 10px;  
+}  
 

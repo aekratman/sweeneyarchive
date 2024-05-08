@@ -1,10 +1,6 @@
 var btncontainer = document.getElementById("btncontainer");
 var btns = document.getElementsByClassName("btn");
 
-
-
-
-
 function showrecs(tag) {
     var x = document.getElementsByClassName("rec");
     for(var i=0; i<x.length; i++) { 
@@ -34,6 +30,16 @@ function finalbutton(tag) {
        
     }
 }
+
+          function show_hide() {  
+            var click = document.getElementById("list-items");  
+            if(click.style.display ==="none") {  
+               click.style.display ="block";  
+            } else {  
+               click.style.display ="none";  
+            }   
+         }  
+
 
 function addNew() {
 
